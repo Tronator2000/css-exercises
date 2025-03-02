@@ -14,16 +14,15 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .left {
   display: flex;
-  margin-left: 16px;
 }
 
 .right {
   display: flex;
-  margin-right: 16px;
   align-items: center;
   gap: 16px;
 }
