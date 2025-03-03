@@ -7,23 +7,21 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .header, .footer {
   display: flex;
-  padding: 0 16px;
-  align-self: stretch;
+  padding: 16px;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
 }
 
 .footer {
@@ -39,6 +37,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -56,6 +55,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 30px;
+  gap: 16px;
   padding: 0;
+  margin: 0;
 }
